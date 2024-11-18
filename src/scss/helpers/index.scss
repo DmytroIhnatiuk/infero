@@ -1,0 +1,16 @@
+@import 'h';
+
+.mb {
+	&_60-40 {
+		margin-bottom: 40px;
+		@media all and (min-width: 1024px) {
+			margin-bottom: 60px;
+		}
+	}
+	&_s-40 {
+		margin-bottom: 40px;
+		@media all and (min-width: 1024px) {
+			margin-bottom: 0;
+		}
+	}
+}
